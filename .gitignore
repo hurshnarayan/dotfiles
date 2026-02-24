@@ -1,7 +1,31 @@
+# ----------------------------
+# System files
+# ----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.cache/
+.local/share/Trash/
+
+# ----------------------------
+# Shell history (DO NOT TRACK)
+# ----------------------------
+.zsh_history
+.bash_history
+.history
+*.history
+
+
+
 # Ignore specific folders in ~/.config
 VSCodium/
 starship/
-zsh/
+zsh/.zcompdump*
+zsh/.zsh_sessions/
+zsh/.zshrc.pre-oh-my-zsh
+zsh/.zshrc.*
 
 # Logs / dumps
 *.log
