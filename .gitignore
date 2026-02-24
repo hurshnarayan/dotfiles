@@ -1,0 +1,23 @@
+# Ignore specific folders in ~/.config
+VSCodium/
+starship/
+zsh/
+
+# Logs / dumps
+*.log
+*.dump
+*.tmp
+*.bak
+*.pid
+
+# Vim swap / temp
+*.swp
+*.swo
+*~
+
+# Shell history (if any end up here)
+*.history
+
+
+gh/
+go/
