@@ -19,13 +19,15 @@ Thumbs.db
 
 
 
+
 # Ignore specific folders in ~/.config
 VSCodium/
 starship/
 zsh/.zcompdump*
 zsh/.zsh_sessions/
 zsh/.zshrc.pre-oh-my-zsh
-zsh/.zshrc.*
+zsh/.zshrc_*
+*Zone.Identifier
 
 # Logs / dumps
 *.log
